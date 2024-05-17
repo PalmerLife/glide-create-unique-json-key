@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "column",
+    "name": "String Transformer",
+    "description": "Replaces all special characters with spaces, converts the string into camelCase format, and appends a random 5-number sequence to the end of the string unless it consists of numbers only.",
+    "author": "Your Name <your.email@example.com>",
+    "params": [
+      {
+        "name": "string",
+        "displayName": "String",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
